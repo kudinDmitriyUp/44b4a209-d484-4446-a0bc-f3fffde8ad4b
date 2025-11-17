@@ -1,4 +1,4 @@
-"use client"
+"use client";
 
 import { ThemeProvider } from "@/providers/themeProvider/ThemeProvider";
 import NavbarStyleMinimal from '@/components/navbar/NavbarStyleMinimal';
@@ -10,9 +10,9 @@ import TestimonialCardTwo from '@/components/sections/testimonial/TestimonialCar
 import SocialProofOne from '@/components/sections/socialProof/SocialProofOne';
 import ContactCenter from '@/components/sections/contact/ContactCenter';
 import FooterSocial from '@/components/sections/footer/FooterSocial';
-import { Award, Building, Crosshair, Heart, Home, Instagram, Shield, Star, Target, TrendingUp, Twitter, Users, Youtube } from "lucide-react";
+import { Award, Building, Crosshair, Heart, Instagram, Shield, Star, Target, TrendingUp, Twitter, Users, Youtube } from "lucide-react";
 
-export default function Home() {
+export default function Page() {
   return (
     <ThemeProvider
       defaultButtonVariant="hover-magnetic"
@@ -106,7 +106,7 @@ export default function Home() {
             {
               title: "Killhouse Operations",
               description: "Master close-quarters combat in our realistic killhouse facility with moving targets, live-fire scenarios, and tactical decision-making under pressure.",
-              icon: Home
+              icon: Building
             },
             {
               title: "Weapons Mastery",
